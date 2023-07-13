@@ -20,7 +20,7 @@ local_css("style/style.css")
 
 # --- LOAD ASSETS ---
 lottie_coding = load_lottieurl("https://lottie.host/e576f751-d277-4b85-b1cf-9bfff91b6f64/dplNN1iGJD.json")
-img_portfolio = Image.open("/Users/victorgz/Documents/zarco_ideas/website/images/portfolio.png")
+img_portfolio = Image.open("images/portfolio.png")
 
 # HEADER SECTION #
 with st.container():
