@@ -26,14 +26,12 @@ img_portfolio = Image.open("images/portfolio.png")
 with st.container():
     st.markdown("""
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <h3>hi, I am victor</h3>
-            <h1>financial geek specializing in portfolio allocation and wealth management</h1>
-            <p>I am passionate about finding ways to use next-gen tech to solve everyday problems.</p>
-            <p><a href="https://www.linkedin.com/in/victor-gutierrez-z/">linkedin</a></p>
+            <h3 style="text-align: center;">hi, I am victor</h3>
+            <h1 style="text-align: center;">financial geek specializing in portfolio allocation and wealth management</h1>
+            <p style="text-align: center;">I am passionate about finding ways to use next-gen tech to solve everyday problems.</p>
+            <p style="text-align: center;"><a href="https://www.linkedin.com/in/victor-gutierrez-z/">linkedin</a></p>
         </div>
         """, unsafe_allow_html=True)
-
-
 
 # WHAT I DO #
 with st.container():
