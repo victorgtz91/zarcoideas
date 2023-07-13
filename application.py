@@ -24,7 +24,7 @@ img_portfolio = Image.open("images/portfolio.png")
 
 # HEADER SECTION #
 with st.container():
-st.markdown("""
+    st.markdown("""
         <style>
         .center {
             display: flex;
@@ -36,7 +36,8 @@ st.markdown("""
         </style>
         """, unsafe_allow_html=True)
 
-    st.markdown("<div class='center'>", unsafe_allow_html=True)    st.subheader("hi, I am victor")
+    st.markdown("<div class='center'>", unsafe_allow_html=True)
+    st.subheader("hi, I am victor")
     st.title("financial geek specializing in portfolio allocation and wealth management")
     st.write("I am passionate about finding ways to use next-gen tech to solve everyday problems.")
     st.write("[linkedin](https://www.linkedin.com/in/victor-gutierrez-z/)")
