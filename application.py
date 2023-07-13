@@ -24,6 +24,7 @@ img_portfolio = Image.open("images/portfolio.png")
 
 # HEADER SECTION #
 with st.container():
+    st.markdown("<h1 style='text-align: center;'>HEADER SECTION</h1>", unsafe_allow_html=True)
     st.subheader("hi, I am victor")
     st.title("financial geek specializing in portfolio allocation and wealth management")
     st.write("I am passionate about finding ways to use next-gen tech to solve everyday problems.")
