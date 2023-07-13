@@ -85,7 +85,7 @@ with st.container():
 # ---CONTACT---
 with st.container():
     st.write("---")
-    st.header(":incoming_envelope:&nbsp;&nbsp;&nbsp;shoot me an e-mail:")
+    st.header(":incoming_envelope:&nbsp;&nbsp;&nbsp;get in touch:")
     st.write("##")
     contact_form =  """
     <form action="https://formsubmit.co/vgutierrezzarco@gmail.com" method="POST">
