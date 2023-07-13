@@ -27,7 +27,7 @@ with st.container():
     st.markdown("""
         <div style="display: flex; flex-direction: column; align-items: center;">
             <h3 style="text-align: center;">hi, I am victor</h3>
-            <h1 style="text-align: center;">financial geek specializing in portfolio allocation and wealth management</h1>
+            <h1 style="text-align: center;">finance geek specializing in portfolio allocation and wealth management</h1>
             <p style="text-align: center;">I am passionate about finding ways to use next-gen tech to solve everyday problems.</p>
             <p style="text-align: center;"><a href="https://www.linkedin.com/in/victor-gutierrez-z/">linkedin</a></p>
         </div>
